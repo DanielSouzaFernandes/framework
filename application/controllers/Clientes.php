@@ -20,7 +20,7 @@ class Clientes extends Controller {
     }
 
     public function delete($param = '') {
-        $cliente = new Categoria();
+        $cliente = new Cliente();
         $cliente->deleteById($param);
         $this->index();
     }
