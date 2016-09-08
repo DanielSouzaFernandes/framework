@@ -2,7 +2,7 @@
 
     <div id="top" class="row">
         <div class="col-sm-3">
-            <h2>Usuários</h2>
+            <h2>Cargos</h2>
         </div>
         <div class="col-sm-6">
 
@@ -38,15 +38,15 @@
                 <tbody>
 
                     <?php
-                    foreach ($this->data as $cargo) {
-                        $view = "cargos/view_simple/" . $cargo['id'];
-                        $edt = "cargos/edt_simple/".$cargo['id'];
-                        $delete = "cargos/delete/". $cargo['id'];
+                    foreach ($this->data as $categoria) {
+                        $view = "cargos/view_simple/" . $categoria['id'];
+                        $edt = "cargos/edt_simple/".$categoria['id'];
+                        $delete = "cargos/delete/". $categoria['id'];
 
                         echo "<tr>
-					<td>" . $cargo['id'] . "</td>
-					<td>" . $cargo['descricao'] . "</td>
-					<td>" . $cargo['salario'] . "</td>
+					<td>" . $categoria['id'] . "</td>
+					<td>" . $categoria['descricao'] . "</td>
+					<td>" . $categoria['salario'] . "</td>
 					<td class='actions'>
 						<a class='btn btn-success btn-xs' href=".  base_url($view).">Visualizar</a>
 						<a class='btn btn-warning btn-xs' href=".base_url($edt).">Editar</a>
