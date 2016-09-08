@@ -21,7 +21,7 @@
     <hr />
     <div id = "actions" class = "row">
         <div class = "col-md-12">
-            <a href = "edit.html" class = "btn btn-primary">Editar</a>
+            <a href = "<?= base_url('cargos/edt_simple/'.$this->data['id'])?>" class = "btn btn-primary">Editar</a>
             <a href = "<?= base_url('cargos\index')?>" class = "btn btn-default">Fechar</a>
         </div>
     </div>
