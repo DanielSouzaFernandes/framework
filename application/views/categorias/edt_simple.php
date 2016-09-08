@@ -2,19 +2,15 @@
   
   <h3 class="page-header">Editar Item</h3>
   
-  <form action="<?= base_url('cargos/atualizar')?>" method="post">
+  <form action="<?= base_url('categorias/atualizar')?>" method="post">
   	<div class="row">
   	  <div class="form-group col-md-4">
   	  	<label for="id">ID</label>
                 <input type="text" name="id" class="form-control" id="id" readonly value=<?= $this->data['id']?>>
   	  </div>
 	  <div class="form-group col-md-4">
-  	  	<label for="descricao">Descrição</label>
-                <input type="text" name="descricao" class="form-control" id="descricao" value=<?= $this->data['descricao']?>>
-  	  </div>
-	  <div class="form-group col-md-4">
-  	  	<label for="salario">Salário</label>
-                <input type="text" name="salario" class="form-control" id="salario" placeholder="Digite o valor" value=<?= $this->data['salario']?>>
+  	  	<label for="nome">Nome</label>
+                <input type="text" name="nome" class="form-control" id="descricao" value=<?= $this->data['nome']?>>
   	  </div>
 	</div>
 	
