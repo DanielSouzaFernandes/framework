@@ -2,11 +2,15 @@
 
   <h3 class="page-header">Adicionar um Cargo</h3>
 
-  <form action="<?=base_url(cargos/add)?>" method="post">
+  <form action="<?=base_url('cargos/salvar')?>" method="post">
   	<div class="row">
   	  <div class="form-group col-md-4">
-  	  	<label for="exampleInputEmail1">Descrição</label>
-  	  	<input type="email" class="form-control" id="exampleInputEmail1" placeholder="Digite a Descrição">
+  	  	<label for="descricao">Descrição</label>
+                <input type="text" name="descricao" class="form-control" id="descricao" placeholder="Digite a Descrição">
+          </div>
+  	  <div class="form-group col-md-4">
+  	  	<label for="salario">Salário</label>
+                <input type="text" name="salario" class="form-control" id="salario" placeholder="Digite a Salário">
           </div>
 
 	</div>
