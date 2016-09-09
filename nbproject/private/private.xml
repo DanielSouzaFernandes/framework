@@ -2,6 +2,36 @@
 <project-private xmlns="http://www.netbeans.org/ns/project-private/1">
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
-        <group/>
+        <group>
+            <file>file:/C:/xampp/htdocs/framework/application/views/categorias/add.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/cargos/index.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/enderecos/view_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/categorias/index.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/funcionarios/view_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/clientes/add.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/enderecos/index.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/funcionarios/edt_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/fornecedores/edt_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/fornecedores/view_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/clientes/edt_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/cargos/add.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/fornecedores/index.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/itens/edt_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/categorias/view_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/fornecedores/add.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/controllers/Itens.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/funcionarios/add.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/clientes/view_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/enderecos/add.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/itens/view_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/categorias/edt_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/clientes/index.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/cargos/view_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/enderecos/edt_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/cargos/edt_simple.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/itens/index.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/itens/add.php</file>
+            <file>file:/C:/xampp/htdocs/framework/application/views/funcionarios/index.php</file>
+        </group>
     </open-files>
 </project-private>

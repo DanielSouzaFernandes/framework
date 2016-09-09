@@ -34,7 +34,7 @@
     <div id = "actions" class = "row">
         <div class = "col-md-12">
             <a href = "<?= base_url('itens/edt_simple/'.$this->data['id'])?>" class = "btn btn-primary">Editar</a>
-            <a href = "<?= base_url('itens\index')?>" class = "btn btn-default">Fecha</a>
+            <a href = "<?= base_url('itens\index')?>" class = "btn btn-default">Fechar</a>
         </div>
     </div>
 

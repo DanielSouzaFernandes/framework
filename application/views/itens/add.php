@@ -17,7 +17,7 @@
                 <input type="text" name="valor_unitario" class="form-control" id="valor_unitario" placeholder="Digiti o valor unitario">
             </div>
             <div class="form-group col-md-6">
-                <label for="quantidade">Quantidades</label>
+                <label for="quantidade">Quantidade</label>
                 <input type="text" name="quantidade" class="form-control" id="quantidade" placeholder="Digite a quantidade">
             </div>
             <div class="form-group col-md-6">
@@ -28,8 +28,8 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <button type="submit" class="btn btn-primary">Salvar Itens</button>
-                    <a href="<?= base_url('itens') ?>" class="btn btn-default">Cancela</a>
+                    <button type="submit" class="btn btn-primary">Salvar Item</button>
+                    <a href="<?= base_url('itens') ?>" class="btn btn-default">Cancelar</a>
                 </div>
             </div>
         </div>

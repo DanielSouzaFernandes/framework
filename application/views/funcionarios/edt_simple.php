@@ -1,6 +1,6 @@
  <div id="main" class="container-fluid">
   
-  <h3 class="page-header">Editar Cliente</h3>
+  <h3 class="page-header">Editar Funcionário</h3>
   
   <form action="<?= base_url('funcionarios/atualizar')?>" method="post">
   	<div class="row">

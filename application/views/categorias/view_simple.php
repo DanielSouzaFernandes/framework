@@ -1,5 +1,5 @@
 <div id = "main" class = "container-fluid">
-    <h3 class = "page-header">Visualizar Cargo <?= $this->data['id'] ?></h3>
+    <h3 class = "page-header">Visualizar Categoria <?= $this->data['id'] ?></h3>
 
     <div class = "row">
         <div class = "col-md-4">

@@ -17,7 +17,7 @@
 
         </div>
         <div class="col-sm-3">
-            <a href="<?= base_url('itens/add') ?>" class="btn btn-primary pull-right h2">Novos Itens</a>
+            <a href="<?= base_url('itens/add') ?>" class="btn btn-primary pull-right h2">Novo Item</a>
         </div>
     </div> <!-- /#top -->
 

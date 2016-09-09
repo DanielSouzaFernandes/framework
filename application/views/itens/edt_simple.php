@@ -21,7 +21,7 @@
                 <input type="text" name="valor_unitario" class="form-control" id="valor_unitario" value=<?= $this->data['valor_unitario']?>>
   	  </div>
 	  <div class="form-group col-md-4">
-  	  	<label for="quantidade">Quantidades</label>
+  	  	<label for="quantidade">Quantidade</label>
                 <input type="text" name="quantidade" class="form-control" id="quantidade" value=<?= $this->data['quantidade']?>>
   	  </div>
 	  <div class="form-group col-md-4">
