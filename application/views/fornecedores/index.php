@@ -39,17 +39,17 @@
                 <tbody>
                     <tr>
                         <?php
-                        foreach ($this->data as $fornecedor) {
-                            $view = "fornecedores/view_simple/" . $fornecedor['id'];
-                            $edt = "fornecedores/edt_simple/" . $fornecedor['id'];
-                            $delete = "fornecedores/delete/" . $fornecedor['id'];
+                        foreach ($this->data as $produto) {
+                            $view = "fornecedores/view_simple/" . $produto['id'];
+                            $edt = "fornecedores/edt_simple/" . $produto['id'];
+                            $delete = "fornecedores/delete/" . $produto['id'];
 
                             echo "<tr>
-					<td>" . $fornecedor['id'] . "</td>
-					<td>" . $fornecedor['nome'] . "</td>
-					<td>" . $fornecedor['cnpj'] . "</td>
-					<td>" . $fornecedor['telefone'] . "</td>
-					<td>" . $fornecedor['endereco_id'] . "</td>
+					<td>" . $produto['id'] . "</td>
+					<td>" . $produto['nome'] . "</td>
+					<td>" . $produto['cnpj'] . "</td>
+					<td>" . $produto['telefone'] . "</td>
+					<td>" . $produto['endereco_id'] . "</td>
 					<td class='actions'>
 						<a class='btn btn-success btn-xs' href=" . base_url($view) . ">Visualizar</a>
 						<a class='btn btn-warning btn-xs' href=" . base_url($edt) . ">Editar</a>

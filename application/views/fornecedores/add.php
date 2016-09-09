@@ -5,7 +5,7 @@
     <form action="<?= base_url('fornecedores/salvar') ?>" method="post">
         <div class="row">
             <div class="form-group col-md-4">
-                <label for="nome">Nome do Cliente</label>
+                <label for="nome">Nome do Fornecedor</label>
                 <input type="text" name="nome" class="form-control" id="nome" placeholder="Digite o nome">
             </div>
             <div class="form-group col-md-4">
@@ -24,8 +24,8 @@
 
         <div class="row">
             <div class="col-md-12">
-                <button type="submit" class="btn btn-primary">Salvar</button>
-                <a href="template.html" class="btn btn-default">Cancelar</a>
+                <button type="submit" class="btn btn-primary">Salvar Fornecedor</button>
+                <a href="<?= base_url('produtos') ?>" class="btn btn-default">Cancelar</a>
             </div>
         </div>
     </form>

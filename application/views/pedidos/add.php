@@ -1,9 +1,9 @@
 <div id="main" class="container-fluid">
 
-  <h3 class="page-header">Adicionar Pedido</h3>
+    <h3 class="page-header">Adicionar Pedido</h3>
 
-  <form action="<?=base_url('pedidos/salvar')?>" method="post">
-  	 <div class="row">
+    <form action="<?= base_url('pedidos/salvar') ?>" method="post">
+        <div class="row">
             <div class="form-group col-md-4">
                 <label for="funcionario_id">Nome do funcionário</label>
                 <input type="text" name="funcionario_id" class="form-control" id="funcionario_id" placeholder="Digite o nome">
@@ -20,9 +20,10 @@
 
             <div class="row">
                 <div class="col-md-12">
-                    <button type="submit" class="btn btn-primary">Salvar</button>
-                    <a href="template.html" class="btn btn-default">Cancelar</a>
+                    <button type="submit" class="btn btn-primary">Salvar Pedido</button>
+                    <a href="<?= base_url('produtos') ?>" class="btn btn-default">Cancelar</a>
                 </div>
             </div>
-  </form>
- </div>
+        </div>
+    </form>
+</div>

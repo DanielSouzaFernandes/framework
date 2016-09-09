@@ -2,12 +2,12 @@
 
     <div id="top" class="row">
         <div class="col-sm-3">
-            <h2>Endereços d</h2>
+            <h2>Endereços</h2>
         </div>
         <div class="col-sm-6">
 
             <div class="input-group h2">
-                <input name="data[search]" class="form-control" id="search" type="text" placeholder="Pesquisar Itens">
+                <input name="data[search]" class="form-control" id="search" type="text" placeholder="Pesquisar Endereços">
                 <span class="input-group-btn">
                     <button class="btn btn-primary" type="submit">
                         <span class="glyphicon glyphicon-search"></span>
@@ -41,18 +41,18 @@
                 <tbody>
                     <tr>
                         <?php
-                        foreach ($this->data as $endereco) {
-                            $view = "enderecos/view_simple/" . $endereco['id'];
-                            $edt = "enderecos/edt_simple/" . $endereco['id'];
-                            $delete = "enderecos/delete/" . $endereco['id'];
+                        foreach ($this->data as $produto) {
+                            $view = "enderecos/view_simple/" . $produto['id'];
+                            $edt = "enderecos/edt_simple/" . $produto['id'];
+                            $delete = "enderecos/delete/" . $produto['id'];
 
                             echo "<tr>
-					<td>" . $endereco['id'] . "</td>
-					<td>" . $endereco['cep'] . "</td>
-					<td>" . $endereco['logradouro'] . "</td>
-					<td>" . $endereco['bairro'] . "</td>
-					<td>" . $endereco['cidade'] . "</td>
-					<td>" . $endereco['estado'] . "</td>
+					<td>" . $produto['id'] . "</td>
+					<td>" . $produto['cep'] . "</td>
+					<td>" . $produto['logradouro'] . "</td>
+					<td>" . $produto['bairro'] . "</td>
+					<td>" . $produto['cidade'] . "</td>
+					<td>" . $produto['estado'] . "</td>
 					<td class='actions'>
 						<a class='btn btn-success btn-xs' href=" . base_url($view) . ">Visualizar</a>
 						<a class='btn btn-warning btn-xs' href=" . base_url($edt) . ">Editar</a>

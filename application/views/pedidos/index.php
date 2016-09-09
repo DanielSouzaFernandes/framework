@@ -39,16 +39,16 @@
                 <tbody>
                     <tr>
                         <?php
-                        foreach ($this->data as $pedido) {
-                            $view = "pedidos/view_simple/" . $pedido['id'];
-                            $edt = "pedidos/edt_simple/" . $pedido['id'];
-                            $delete = "pedidos/delete/" . $pedido['id'];
+                        foreach ($this->data as $produto) {
+                            $view = "pedidos/view_simple/" . $produto['id'];
+                            $edt = "pedidos/edt_simple/" . $produto['id'];
+                            $delete = "pedidos/delete/" . $produto['id'];
 
                             echo "<tr>
-					<td>" . $pedido['id'] . "</td>
-					<td>" . $pedido['funcionario_id'] . "</td>
-					<td>" . $pedido['cliente_id'] . "</td>
-					<td>" . $pedido['data_cadastro'] . "</td>
+					<td>" . $produto['id'] . "</td>
+					<td>" . $produto['funcionario_id'] . "</td>
+					<td>" . $produto['cliente_id'] . "</td>
+					<td>" . $produto['data_cadastro'] . "</td>
 					<td class='actions'>
 						<a class='btn btn-success btn-xs' href=" . base_url($view) . ">Visualizar</a>
 						<a class='btn btn-warning btn-xs' href=" . base_url($edt) . ">Editar</a>

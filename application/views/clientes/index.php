@@ -7,7 +7,7 @@
         <div class="col-sm-6">
 
             <div class="input-group h2">
-                <input name="data[search]" class="form-control" id="search" type="text" placeholder="Pesquisar Itens">
+                <input name="data[search]" class="form-control" id="search" type="text" placeholder="Pesquisar Clientes">
                 <span class="input-group-btn">
                     <button class="btn btn-primary" type="submit">
                         <span class="glyphicon glyphicon-search"></span>
@@ -42,19 +42,19 @@
                 <tbody>
                     <tr>
                         <?php
-                        foreach ($this->data as $cliente) {
-                            $view = "clientes/view_simple/" . $cliente['id'];
-                            $edt = "clientes/edt_simple/" . $cliente['id'];
-                            $delete = "clientes/delete/" . $cliente['id'];
+                        foreach ($this->data as $produto) {
+                            $view = "clientes/view_simple/" . $produto['id'];
+                            $edt = "clientes/edt_simple/" . $produto['id'];
+                            $delete = "clientes/delete/" . $produto['id'];
 
                             echo "<tr>
-					<td>" . $cliente['id'] . "</td>
-					<td>" . $cliente['nome'] . "</td>
-					<td>" . $cliente['cpf'] . "</td>
-					<td>" . $cliente['telefone'] . "</td>
-					<td>" . $cliente['renda'] . "</td>
-					<td>" . $cliente['data_cadastro'] . "</td>
-					<td>" . $cliente['endereco_id'] . "</td>
+					<td>" . $produto['id'] . "</td>
+					<td>" . $produto['nome'] . "</td>
+					<td>" . $produto['cpf'] . "</td>
+					<td>" . $produto['telefone'] . "</td>
+					<td>" . $produto['renda'] . "</td>
+					<td>" . $produto['data_cadastro'] . "</td>
+					<td>" . $produto['endereco_id'] . "</td>
 					<td class='actions'>
 						<a class='btn btn-success btn-xs' href=" . base_url($view) . ">Visualizar</a>
 						<a class='btn btn-warning btn-xs' href=" . base_url($edt) . ">Editar</a>

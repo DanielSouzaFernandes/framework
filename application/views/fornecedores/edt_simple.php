@@ -31,7 +31,7 @@
 	<div class="row">
 	  <div class="col-md-12">
 	  	<button type="submit" class="btn btn-primary">Atualizar</button>
-		<a href="template.html" class="btn btn-default">Cancelar</a>
+		<a href="<?= base_url('fornecedores\index')?>" class="btn btn-default">Cancelar</a>
 	  </div>
 	</div>
 

@@ -19,7 +19,7 @@
 	<div class="row">
 	  <div class="col-md-12">
 	  	<button type="submit" class="btn btn-primary">Salvar Cargo</button>
-		<a href="template.html" class="btn btn-default">Cancelar</a>
+		<a href="<?= base_url('produtos') ?>" class="btn btn-default">Cancelar</a>
 	  </div>
 	</div>
 

@@ -33,8 +33,8 @@
 
 	<div class="row">
 	  <div class="col-md-12">
-	  	<button type="submit" class="btn btn-primary">Salvar</button>
-		<a href="template.html" class="btn btn-default">Cancelar</a>
+	  	<button type="submit" class="btn btn-primary">Salvar Cliente</button>
+		<a href="<?= base_url('produtos') ?>" class="btn btn-default">Cancelar</a>
 	  </div>
 	</div>
 
