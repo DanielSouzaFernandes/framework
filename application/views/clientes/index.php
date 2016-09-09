@@ -42,19 +42,19 @@
                 <tbody>
                     <tr>
                         <?php
-                        foreach ($this->data as $produto) {
-                            $view = "clientes/view_simple/" . $produto['id'];
-                            $edt = "clientes/edt_simple/" . $produto['id'];
-                            $delete = "clientes/delete/" . $produto['id'];
+                        foreach ($this->data as $item) {
+                            $view = "clientes/view_simple/" . $item['id'];
+                            $edt = "clientes/edt_simple/" . $item['id'];
+                            $delete = "clientes/delete/" . $item['id'];
 
                             echo "<tr>
-					<td>" . $produto['id'] . "</td>
-					<td>" . $produto['nome'] . "</td>
-					<td>" . $produto['cpf'] . "</td>
-					<td>" . $produto['telefone'] . "</td>
-					<td>" . $produto['renda'] . "</td>
-					<td>" . $produto['data_cadastro'] . "</td>
-					<td>" . $produto['endereco_id'] . "</td>
+					<td>" . $item['id'] . "</td>
+					<td>" . $item['nome'] . "</td>
+					<td>" . $item['cpf'] . "</td>
+					<td>" . $item['telefone'] . "</td>
+					<td>" . $item['renda'] . "</td>
+					<td>" . $item['data_cadastro'] . "</td>
+					<td>" . $item['endereco_id'] . "</td>
 					<td class='actions'>
 						<a class='btn btn-success btn-xs' href=" . base_url($view) . ">Visualizar</a>
 						<a class='btn btn-warning btn-xs' href=" . base_url($edt) . ">Editar</a>

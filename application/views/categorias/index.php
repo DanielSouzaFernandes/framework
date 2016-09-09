@@ -37,14 +37,14 @@
                 <tbody>
 
                     <?php
-                    foreach ($this->data as $produto) {
-                        $view = "categorias/view_simple/" . $produto['id'];
-                        $edt = "categorias/edt_simple/".$produto['id'];
-                        $delete = "categorias/delete/". $produto['id'];
+                    foreach ($this->data as $item) {
+                        $view = "categorias/view_simple/" . $item['id'];
+                        $edt = "categorias/edt_simple/".$item['id'];
+                        $delete = "categorias/delete/". $item['id'];
 
                         echo "<tr>
-					<td>" . $produto['id'] . "</td>
-					<td>" . $produto['nome'] . "</td>
+					<td>" . $item['id'] . "</td>
+					<td>" . $item['nome'] . "</td>
 					<td class='actions'>
 						<a class='btn btn-success btn-xs' href=".  base_url($view).">Visualizar</a>
 						<a class='btn btn-warning btn-xs' href=".base_url($edt).">Editar</a>

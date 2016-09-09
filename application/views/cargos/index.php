@@ -38,15 +38,15 @@
                 <tbody>
 
                     <?php
-                    foreach ($this->data as $produto) {
-                        $view = "cargos/view_simple/" . $produto['id'];
-                        $edt = "cargos/edt_simple/".$produto['id'];
-                        $delete = "cargos/delete/". $produto['id'];
+                    foreach ($this->data as $item) {
+                        $view = "cargos/view_simple/" . $item['id'];
+                        $edt = "cargos/edt_simple/".$item['id'];
+                        $delete = "cargos/delete/". $item['id'];
 
                         echo "<tr>
-					<td>" . $produto['id'] . "</td>
-					<td>" . $produto['descricao'] . "</td>
-					<td>" . $produto['salario'] . "</td>
+					<td>" . $item['id'] . "</td>
+					<td>" . $item['descricao'] . "</td>
+					<td>" . $item['salario'] . "</td>
 					<td class='actions'>
 						<a class='btn btn-success btn-xs' href=".  base_url($view).">Visualizar</a>
 						<a class='btn btn-warning btn-xs' href=".base_url($edt).">Editar</a>

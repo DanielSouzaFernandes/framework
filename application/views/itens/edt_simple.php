@@ -21,7 +21,7 @@
                 <input type="text" name="valor_unitario" class="form-control" id="valor_unitario" value=<?= $this->data['valor_unitario']?>>
   	  </div>
 	  <div class="form-group col-md-4">
-  	  	<label for="quantidade">Quantidade</label>
+  	  	<label for="quantidade">Quantidades</label>
                 <input type="text" name="quantidade" class="form-control" id="quantidade" value=<?= $this->data['quantidade']?>>
   	  </div>
 	  <div class="form-group col-md-4">
@@ -34,8 +34,8 @@
 	
 	<div class="row">
 	  <div class="col-md-12">
-	  	<button type="submit" class="btn btn-primary">Atualizar</button>
-		<a href="<?= base_url('produtos') ?>" class="btn btn-default">Cancelar</a>
+	  	<button type="submit" class="btn btn-primary">Atualiza</button>
+		<a href="<?= base_url('produtos') ?>" class="btn btn-default">Cancela</a>
 	  </div>
 	</div>
 

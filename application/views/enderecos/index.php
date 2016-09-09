@@ -41,18 +41,18 @@
                 <tbody>
                     <tr>
                         <?php
-                        foreach ($this->data as $produto) {
-                            $view = "enderecos/view_simple/" . $produto['id'];
-                            $edt = "enderecos/edt_simple/" . $produto['id'];
-                            $delete = "enderecos/delete/" . $produto['id'];
+                        foreach ($this->data as $item) {
+                            $view = "enderecos/view_simple/" . $item['id'];
+                            $edt = "enderecos/edt_simple/" . $item['id'];
+                            $delete = "enderecos/delete/" . $item['id'];
 
                             echo "<tr>
-					<td>" . $produto['id'] . "</td>
-					<td>" . $produto['cep'] . "</td>
-					<td>" . $produto['logradouro'] . "</td>
-					<td>" . $produto['bairro'] . "</td>
-					<td>" . $produto['cidade'] . "</td>
-					<td>" . $produto['estado'] . "</td>
+					<td>" . $item['id'] . "</td>
+					<td>" . $item['cep'] . "</td>
+					<td>" . $item['logradouro'] . "</td>
+					<td>" . $item['bairro'] . "</td>
+					<td>" . $item['cidade'] . "</td>
+					<td>" . $item['estado'] . "</td>
 					<td class='actions'>
 						<a class='btn btn-success btn-xs' href=" . base_url($view) . ">Visualizar</a>
 						<a class='btn btn-warning btn-xs' href=" . base_url($edt) . ">Editar</a>
